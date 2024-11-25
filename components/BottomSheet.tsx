@@ -25,9 +25,9 @@ export const DownloadPicture = ({ onClose, wallpaper }: {
             onChange={handleSheetChanges}
             enablePanDownToClose={true}
             handleIndicatorStyle={{ height: 0 }}
-            handleStyle={{height:0}}>
+            handleStyle={{ height: 0 }}>
             <BottomSheetView style={styles.contentContainer}>
-                <Image style={styles.image} source={{uri: wallpaper.url}}/>
+                <Image style={styles.image} source={{ uri: wallpaper.url }} />
                 <Button title='Download'></Button>
             </BottomSheetView>
         </BottomSheet>
